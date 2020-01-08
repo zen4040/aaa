@@ -1,6 +1,17 @@
 from food import Food
 from drink import Drink
 
+print('Hello, welcome to W-Delivers!')
+print('----------------------------------------------------------')
+input('Please insert your name: ')
+input('Please insert your faculty: ')
+input('PLease insert your grade: ')
+input('Please state the building and classroom number of pick up location (Must be on Waseda or Toyama Campus): ')
+input('Please insert preferred time of pickup : ')
+print('----------------------------------------------------------')
+print('Please note that the only payment method available is CASH')
+print('----------------------------------------------------------')
+
 food1 = Food('サンドイッチ', 500, 330)
 food2 = Food('チョコケーキ', 400, 450)
 food3 = Food('シュークリーム', 200, 180)
