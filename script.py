@@ -27,12 +27,13 @@ for drink in drinks:
 
 print('--------------------')
 
-food_order = int(input('食べ物の番号を選択してください: '))
+food_order = int(input('Insert number from food list: '))
 selected_food = foods[food_order]
 
-drink_order = int(input('飲み物の番号を選択してください: '))
+drink_order = int(input('Insert number from drink list: '))
 selected_drink = drinks[drink_order]
 
+#we should put this before customer orders
 # コンソールから入力を受け取り、変数countに代入してください
 count = int(input('何セット買いますか？(3つ以上で1割引): '))
 
@@ -40,4 +41,4 @@ count = int(input('何セット買いますか？(3つ以上で1割引): '))
 result = selected_food.get_total_price(count) + selected_drink.get_total_price(count)
 
 # 「合計は〇〇円です」となるように出力してください
-print('合計は' + str(result) + '円です')
+print('The total is ' + str(result) + 'yen.')
