@@ -1,0 +1,17 @@
+# restaurant 4 どんどんどんDon Don Don 
+
+from food import Food
+from drink import Drink
+
+food1 = Food('ビビンパ　Bibimpa', 600, 600)
+food2 = Food('辛ラーメン定食 Shin Ramen Noodles Set Menu', 600, 700)
+food3 = Food('冷麺　Cold Noodles ', 800, 500)
+food4 = Food('純豆腐チゲ　Spicy Tofu Soup', 800, 520)
+food5 = Food('牛ブルゴキ定食　Bulgogi Set Menu', 1000, 890)
+             
+foods = [food1, food2, food3, food4, food5]
+
+drink1 = Drink('Mineral Water', 200, 0)
+drink2 = Drink('Oolong Tea', 200, 0)
+
+drinks = [drink1, drink2]
