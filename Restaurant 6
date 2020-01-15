@@ -1,0 +1,25 @@
+#Restaurant 6: Where is a dog?
+
+food1 = Food('Asian Curry Plate (soup and mini desert set)', 1200, 590)
+food2 = Food(' Rice Bowl with Vegetables (soup and mini desert set)', 1200, 370)
+food3 = Food('Pizza Toast (soup and mini desert set)', 1000, 310)
+food4 = Food('Vegan Plate (soup and mini dessert set)', 1200, 310)
+food5 = Food('Herb Fragrant Salt Pork Bowl (soup and mini dessert set)', 1000, 680)
+
+foods = [food1, food2, food3, food4, food5]
+
+drink1 = Drink('Decaf Coffee', 450, 0)
+drink2 = Drink('Organic Black Tea', 450, 0)
+drink3 = Drink('Morinaga Tea', 500, 0)
+drink3 = Drink('Citrus Unshiu Juice', 450, 35) 
+drink3 = Drink('Perrier', 350, 0)
+               
+drinks = [drink1, drink2, drink3, drink4, drink5]
+
+dessert1 = Dessert('Pancake with Vegan Butter and Fruits', 880, 105)
+dessert2 = Dessert('Waffles with Soy Milk Whipped Cream and Fruits', 880, 180)
+dessert3 = Dessert('Brownie Soy Milk Whipped', 650, 200)
+dessert4 = Dessert('Clafoutis with Shanti Sauce', 700, 250)
+dessert5 = Dessert('Coconut Kudzu Pudding', 650, 140)
+
+desserts = [dessert1, dessert2, dessert3, dessert4, dessert5]
