@@ -1,0 +1,25 @@
+#Restaurant 5: Good Morning Cafe 
+
+food1 = Food('GMC Omelette Rice (soup set)', 900, 630)
+food2 = Food('GMC Burger (soup and french fries set)', 1100, 550)
+food3 = Food('Tomato Spaghettini with Bacon and Onions', 950, 590)
+food4 = Food('Bolognese (soup and french fries set)', 1050, 690)
+food5 = Food('Carbonara (soup and french fries set)', 1100, 730)
+
+foods = [food1, food2, food3, food4, food5]
+
+drink1 = Drink('Coffee', 150, 0)
+drink2 = Drink('Tea', 150, 2)
+drink3 = Drink('Coca Cola', 200, 140)
+drink3 = Drink('Ginger Ale', 200, 140) 
+drink3 = Drink('Pineapple Juice', 200, 133)
+               
+drinks = [drink1, drink2, drink3, drink4, drink5]
+
+dessert1 = Dessert('Vanilla caramel angel food cake', 600, 200)
+dessert2 = Dessert('Pistachio and cherry tart', 700, 340)
+dessert3 = Dessert('Double cheese cake', 600, 320)
+dessert4 = Dessert('Mille crêpes with praline', 650, 340)
+dessert5 = Dessert('Gâteau au Chocolat', 650, 380)
+
+desserts = [dessert1, dessert2, dessert3, dessert4, dessert5]
